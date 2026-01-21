@@ -6,6 +6,9 @@
 *~
 .DS_Store
 
+# Act (GitHub Actions local testing)
+.actrc
+
 # Python
 __pycache__/
 *.py[cod]
