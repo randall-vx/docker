@@ -99,7 +99,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
 
   test:
-    needs: build
+    needs: [detect-changes, build]
     runs-on: ubuntu-latest
     strategy:
       matrix:
